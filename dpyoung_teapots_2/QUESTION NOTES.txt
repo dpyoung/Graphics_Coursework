@@ -1,0 +1,31 @@
+Name: Daniel Young
+Assignment: 2
+Course: ECE 595 Graphics
+Date: 18 October 2015
+
+
+teapotAssignment2_Question1.1.cpp
+	This file contains question 1.1's work. It displays 6 teapots displayed using
+	different orderings of the rotate and translate calls specified. It seems like
+	calling these functions out of order positions the teapot in different areas of
+	its appropriate screen.
+teapotAssignment2_Question1.2.cpp
+	This file contains the code for 1.2. This code works like 1.1's code but adds
+	myTranslatef and myRotatef functions to replicate the GL versions.
+teapotAssignment2_Question2.1.cpp
+	This file contains the first of three parts for question 2. It simply displays a
+	perpective projection of a teapot.
+teapotAssignment2_Question2.2.cpp
+	This file contains code for question 2.2, as well as 2.3. The code adds camera 
+	controls for pitch, yaw, roll, and slide. Please note that sliding too far 
+	distorts the teapot.
+teapotAssignment2_Question2.3.cpp
+	This file is redundant (see previous file). The code adds camera controls for
+	pitch, yaw, roll, and slide. Please note that sliding too far distorts the teapot.
+
+
+Teapots that follow the rotate-rotate-translate patterns exhibit relatively normal behaviors.
+The rest of the teapots, while still resembling teapots, look slightly distorted....
+
+
+
